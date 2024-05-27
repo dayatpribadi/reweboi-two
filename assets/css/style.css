@@ -11174,7 +11174,17 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	margin-bottom: 0;
 }
 
+.testimonial.testimonial-30 {
+	padding      : 60px 0;
+	margin-bottom: 0;
+}
+
 .testimonial.testimonial-3 .heading .heading-title {
+	font-size    : 43px;
+	line-height  : 50px;
+	margin-bottom: 34px;
+}
+.testimonial.testimonial-30 .heading .heading-title {
 	font-size    : 43px;
 	line-height  : 50px;
 	margin-bottom: 34px;
@@ -13114,6 +13124,10 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 		margin-bottom: 20px;
 		overflow: scroll;
 	}
+
+	.tagline {
+		font-size: 20px !important;
+	}
 }
 
 @media only screen and (min-width: 431px) and (max-width: 992px) {
@@ -13377,4 +13391,41 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	color: #fff;
 	font-size: 15px;
 	font-weight: 200;
+  }
+
+
+  .card-berita {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	color: #212A3E !important;
+	word-wrap: break-word;
+	border-radius: .25rem
+  }
+
+  .card-berita:hover {
+	background-color: #0E46A3;
+	color: #fff !important;
+  }
+
+  .card-berita .btn-selengkapnya {
+	display: none;
+  }
+
+  .card-berita:hover .btn-selengkapnya {
+	display: block;
+  }
+
+
+  .card-berita .card-berita-desc {
+	margin-bottom: 10px;
+	text-align: justify;
+  }
+
+  .tab-pane-berita {
+	height: 450px;
+	overflow: scroll;
   }
